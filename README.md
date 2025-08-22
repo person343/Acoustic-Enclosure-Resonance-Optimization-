@@ -48,10 +48,6 @@ Speaker enclosures should be acoustically inert. In practice, flat panels exhibi
 ---
 
 ## 4. Iterative Design Log (with figures)
-
-> Image paths: place your 15 images in the `results/` subfolders below with filenames `modal.png`, `frf_displacement.png`, `frf_velocity.png`.  
-> If you use different names, just edit the links.
-
 ### C1 — Baseline (box + three baffle cutouts)
 
 Baseline enclosure with large, lightly restrained side spans and a locally softened baffle due to cutouts. The first bending mode lands in the mid band; harmonic FRFs confirm strong panel participation near that mode—especially on the large side face.
