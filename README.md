@@ -26,7 +26,7 @@ Speaker enclosures should be acoustically inert. In practice, flat panels exhibi
 - **Configurations (5):**  
   1) **C1 — Baseline:** box + 3 cutouts  
   2) **C2 — Cross-rib:** single rib across the most active side panel  
-  3) **C3 — Baffle ring:** stiffening ring around the driver cutouts  
+  3) **C3 — Shelf brace:** slanted panel for support  
   4) **C4 — Shelf/transverse brace:** brace tying opposite walls  
   5) **C5 — Combined:** cross-rib + baffle ring (targeted global + local stiffening)  
 - **Materials:** ABS, Mg, Al variants explored qualitatively (conclusions are largely geometry-driven).
@@ -79,9 +79,9 @@ A single **cross-rib** spans the long dimension of the most active side panel, c
 
 ---
 
-### C3 — Baffle ring around the driver cutouts
+### C3 — Shelf
 
-A **baffle ring** (structural ring) restores stiffness lost to the cutouts and spreads clamp loads from the driver screws. This primarily addresses **local** baffle softness (“oil-canning”).
+A slanted side panel restores stiffness lost to the cutouts and spreads clamp loads from the driver screws. This primarily addresses **local** baffle softness (“oil-canning”).
 
 | First mode (modal shape) | Displacement FRF (side face, surface-avg) | Velocity FRF (side face, surface-avg) |
 |:--:|:--:|:--:|
@@ -132,8 +132,8 @@ First modal frequencies (from the five modal images):
 |:--|--:|
 | C1 — Baseline | 743.43 |
 | C2 — Cross-rib | 962.26 |
-| C3 — Baffle ring | 752.34 |
-| C4 — Shelf brace | 1003.10 |
+| C3 — Shelf | 752.34 |
+| C4 — Shelf + brace | 1003.10 |
 | C5 — Combined | 1317.20 |
 
 **Trend:** C2/C4/C5 shift f₁ upward; C5 reaches ~1.32 kHz (+77% over baseline). FRFs (especially velocity) mirror this improvement in the ~0.75–1.3 kHz region.
