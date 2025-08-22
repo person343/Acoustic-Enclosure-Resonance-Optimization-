@@ -11,23 +11,6 @@ I started from a **plain box with three baffle cutouts** (similar to compact mul
 
 ---
 
-## Table of Contents
-
-- [1. Problem](#1-problem)  
-- [2. Model Overview](#2-model-overview)  
-- [3. Analysis Method](#3-analysis-method)  
-- [4. Iterative Design Log (with figures)](#4-iterative-design-log-with-figures)  
-- [5. Results Summary](#5-results-summary)  
-- [6. What to Look For in the FRFs](#6-what-to-look-for-in-the-frfs)  
-- [7. Key Learnings](#7-key-learnings)  
-- [8. How to Reproduce](#8-how-to-reproduce)  
-- [9. Troubleshooting Notes](#9-troubleshooting-notes)  
-- [10. Repository Layout](#10-repository-layout)  
-- [11. Next Steps](#11-next-steps)  
-- [12. License](#12-license)
-
----
-
 ## 1. Problem
 
 Speaker enclosures should be acoustically inert. In practice, flat panels exhibit bending modes; when these land in a driver’s operating band, the cabinet radiates sound and colors the response.  
